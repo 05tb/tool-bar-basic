@@ -8,6 +8,8 @@ My custom tool-bar plugin that adds an atom toolbar with functions that I use ev
 
 ![toolbarbasic](https://cloud.githubusercontent.com/assets/6761721/16498220/98136094-3ef2-11e6-83d0-1392d21039ba.png)
 
+Forked from https://github.com/AlexNewson/tool-bar-basic.
+
 ## Buttons
 
 * **Open file**
