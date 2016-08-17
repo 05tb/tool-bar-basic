@@ -218,6 +218,13 @@ module.exports =
                 'icon': 'globe'
                 'callback': 'atom-html-preview:toggle'
                 'tooltip': 'HTML Preview'
+        if atom.packages.loadedPackages['browser-plus']
+            @toolBar.addButton
+                'tooltip' : 'Browser Plus'
+                'dependency' : 'browser-plus'
+                'callback' : 'browser-plus:open'
+                'iconset': 'fi'
+                'icon' : 'web'
 
         @toolBar.addSpacer()
         @toolBar.addButton
